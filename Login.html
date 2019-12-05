@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Auction System Admin</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap1.css">
+
+<script type="text/javascript" src="js/jquary-3.4.0.js">
+
+
+</script>
+<style type="text/css">
+.bg{background-color: black}
+.login{background-color: white}
+
+</style>
+</head>
+<body class="bg">
+	<div class="container">
+		<div class="row">
+	<center>
+	<form class="login">
+		<h2><b><i>Login</i></b></h2>
+		
+		
+	
+	<input type="email" id="email" placeholder="Email" class="form form-control"></input>
+	<br>
+		
+	
+	<input type="password" id="pass" placeholder="Password" maxlength="15" class="form form-control"></input>
+	<br>
+	<a href="manage1.html"><button type="button" onclick="return check(this.form)"  class="btn btn-success btn-block">Login</button></a>
+
+
+	</form>
+	<script language="javascript">
+function check(form)
+{
+
+if(form.email.value == "mavi@gmail.com" && form.pass.value == "123456")
+{
+	return true;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+</center>
+</div>
+</div>
+</body>
+</html>
